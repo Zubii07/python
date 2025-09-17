@@ -19,3 +19,10 @@ while(counting<51):
     print(counting)
     counting+=1
 
+
+# Print table
+number = int(input("Enter a number to print its table:"))
+i = 1
+while(i<=10):
+    print(number, "x", i, "=", number*i)
+    i+=1
