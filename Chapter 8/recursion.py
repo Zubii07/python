@@ -10,3 +10,15 @@ def factorial(n):
 
 n = int(input('Enter a num:'))
 print(f" The factorial of this number is: {factorial(n)}")
+
+
+
+# Write a recursive function which calculate the sum of first n natural numbers.
+def calc_sum(n):
+    if (n == 0):
+        return 0
+    return calc_sum(n-1) + n
+
+n = int(input('Enter a num:'))
+print(f"The sum of first {n} natural numbers is: {calc_sum(n)}")
+
